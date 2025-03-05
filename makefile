@@ -2,7 +2,7 @@ TARGET = main
 
 CC = gcc
 CFLAGS = -g -Wall 
-CLIBS = -lm -lSDL2 -lSDL2main -lSDL2_image -lSDL2_ttf -lGL 
+CLIBS = -lm -lSDL2 -lSDL2main -lSDL2_image -lSDL2_ttf -lGL -lGLEW
 
 BIN_DIR = ./bin
 OBJ_DIR = ./obj

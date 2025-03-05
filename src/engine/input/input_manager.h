@@ -4,7 +4,7 @@
 #include "input_keyboard_state.h"
 
 typedef struct {
-  KeyboardState keyboard_state;
+    KeyboardState keyboard_state;
   //MouseState mouse_state;
 } InputManager;
 

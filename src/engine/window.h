@@ -5,13 +5,13 @@
 #include <SDL2/SDL_opengl.h>
 
 typedef struct {
-  SDL_Window* sdl_window;
-  SDL_GLContext sdl_context;
-  const char* title;
+    SDL_Window* sdl_window;
+    SDL_GLContext sdl_context;
+    const char* title;
 
-  double previous_seconds;
-  double current_seconds;
-  int frame_count;
+    double previous_seconds;
+    double current_seconds;
+    int frame_count;
 } Window;
 
 /**

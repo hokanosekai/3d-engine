@@ -4,6 +4,8 @@
 
 This project have for objective to learn `OpenGL` library with `C` language.
 
+![alt text](assets/cube.png)
+
 ## Installation
 
 To compile this project, you need `SDL2` and `OpenGL` installed on your computer.
@@ -27,6 +29,18 @@ cd ../bin
 chmod +x 3d
 ./3d
 ```
+
+### Keybinds
+
+| Key | Action |
+| --- | ---    |
+| `l` | Toggle the light |
+| `r` | Toggle auto rotate |
+| `left` | Rotate the cube on the left |
+| `right` | Rotate the cube on the right |
+| `up` | Rotate the cube on the up |
+| `down` | Rotate the cube on the down |
+| `esc` | Exit |
 
 ## Cleanup
 

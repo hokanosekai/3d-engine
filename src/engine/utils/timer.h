@@ -7,14 +7,14 @@
 #define FRAME_DELAY 1000 / FPS
 
 typedef struct {
-  // The clock time when the timer started in milliseconds
-  unsigned int start_frame;
-  
-  // Last frame start time in milliseconds
-  unsigned int last_frame;
+    // The clock time when the timer started in milliseconds
+    unsigned int start_frame;
 
-  // Time of the execution of the run loop. Used to cap the frame rate.
-  unsigned int frame_time;
+    // Last frame start time in milliseconds
+    unsigned int last_frame;
+
+    // Time of the execution of the run loop. Used to cap the frame rate.
+    unsigned int frame_time;
 } Timer;
 
 /**

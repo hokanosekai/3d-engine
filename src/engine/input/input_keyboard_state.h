@@ -6,15 +6,15 @@
 #include <stdbool.h>
 
 typedef enum {
-  KEY_NONE,
-  KEY_JUST_PRESSED,
-  KEY_HELD,
-  KEY_JUST_RELEASED
+    KEY_NONE,
+    KEY_JUST_PRESSED,
+    KEY_HELD,
+    KEY_JUST_RELEASED
 } KeyStatus;
 
 typedef struct {
-  const Uint8* current_value;
-  Uint8 previous_value[SDL_NUM_SCANCODES];
+    const Uint8* current_value;
+    Uint8 previous_value[SDL_NUM_SCANCODES];
 } KeyboardState;
 
 /**

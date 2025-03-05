@@ -8,16 +8,16 @@
 #define LOG_FILE "gl.log"
 
 typedef enum {
-  LOG_LEVEL_DEBUG,
-  LOG_LEVEL_INFO,
-  LOG_LEVEL_WARN,
-  LOG_LEVEL_ERROR,
-  LOG_LEVEL_FATAL
+    LOG_LEVEL_DEBUG,
+    LOG_LEVEL_INFO,
+    LOG_LEVEL_WARN,
+    LOG_LEVEL_ERROR,
+    LOG_LEVEL_FATAL
 } LogLevel;
-   
+
 typedef struct {
-  LogLevel level;
-  FILE* file;
+    LogLevel level;
+    FILE* file;
 } Log;
 
 extern Log* LOGGER;
